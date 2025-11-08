@@ -34,5 +34,3 @@ Remove-Item .\*.o -Force -ErrorAction SilentlyContinue
 Remove-Item .\Assignment2.exe -Force -ErrorAction SilentlyContinue
 g++ -std=c++11 main.cpp Employee.cpp -o Assignment2.exe
 ```
-
-If you want any additions (unit tests, CMake, or Visual Studio project), tell me and I can add them.
